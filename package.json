@@ -1,0 +1,23 @@
+{
+  "name": "calculadoravd60minutos",
+  "version": "1.0.0",
+  "description": "calculadoraVD60minutos.github.io",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertoCloudDeveloper/calculadoraVD60minutos.github.io.git"
+  },
+  "author": "AlbertoDiazDeveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbertoCloudDeveloper/calculadoraVD60minutos.github.io/issues"
+  },
+  "homepage": "https://github.com/AlbertoCloudDeveloper/calculadoraVD60minutos.github.io#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
