@@ -7,12 +7,29 @@ const pResultado = document.getElementById("resultado")
 btnCalcular.addEventListener('click', calcular)
 
 function calcular(){
-    const operacion = txtoperacion.value 
+    const operacion = txtoperacion.value
+    const op1 = parseFloat(txtOp1.value)
+    const op2 = parseFloat(txtOp2.value)
 
     if(operacion == "+" || operacion == "-" ||  operacion == "*" || operacion == "/" ){
-        pResultado.innerText = "Calculo Posible"
+    let resultado;
+        switch (operacion){
+            case "+":
+                resultado = op1 + op2
+                break;
+            case "-":
+                resultado = op1 - op2
+                break; 
+            case "*":
+            resultado = op1 * op2
+                break;
+            case "/":
+                resultado = op1/op2
+                break
+        }
+        pResultado.innerText = "calculo posible"
     }else{
-        pResultado.innerText = "Calculo Imposible"
+        pResultado.innerText = "calculo imposible"
     }
 }
 
