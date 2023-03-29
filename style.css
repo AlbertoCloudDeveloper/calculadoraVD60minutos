@@ -8,3 +8,7 @@ input {
     margin: auto;
     margin-bottom: 15px;
 }
+
+P {
+    text-align: center;
+}
